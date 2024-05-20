@@ -1,0 +1,460 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: border-box;
+}
+body {
+  background-color: rgb(31, 60, 95);
+  color: white;
+  font-family: poppins;
+}
+.topnav {
+  display: flex;
+  height: 2rem;
+  width: 100%;
+}
+.topnav .icon img {
+  float: left;
+  height: 4.9rem;
+  border-radius: 50%;
+  margin-left: 3rem;
+}
+.part2 {
+  display: flex;
+  justify-content: end;
+  height: 2rem;
+  width: 100%;
+  float: right;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  padding: 1rem;
+}
+.icon2 {
+  padding-top: 0.4rem;
+}
+.mobile {
+  font-size: 1rem;
+  padding-top: 0.4rem;
+  font-family: poppins;
+}
+.part2 button {
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 1rem;
+  height: 2rem;
+  width: 6rem;
+  background: none;
+  color: white;
+}
+nav {
+  text-align: center;
+  margin: 1rem;
+  margin-top: 2.8rem;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+nav a {
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+nav a:hover {
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  border-image-slice: 1;
+  width: 100%;
+}
+.header {
+  display: flex;
+}
+.header-text {
+  height: 18rem;
+  width: 40%;
+  text-align: left;
+  padding-left: 120px;
+  padding-top: 200px;
+}
+.header-text p {
+  font-size: 1.2rem;
+}
+.header-text h1 {
+  font-size: 2.5rem;
+}
+.header span {
+  background-image: linear-gradient(
+    to right,
+    rgb(51, 214, 254),
+    rgb(73, 126, 249),
+    rgb(165, 85, 240),
+    rgb(251, 111, 233)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 3rem;
+}
+.header-image {
+  margin-top: 4rem;
+}
+/*----------------About-----------------------*/
+.content {
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+}
+.content img {
+  margin-left: 7rem;
+  margin-top: 5rem;
+  height: 30rem;
+  width: 25rem;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  overflow: hidden;
+  border-image: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+
+  border-image-slice: 1;
+}
+.intro {
+  width: 50%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: left;
+}
+.intro-head {
+  width: 100%;
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+.intro-body {
+}
+.info {
+}
+/* info bar */
+.info .info_bar {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.info_bar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.info_bar li {
+  position: relative;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  margin-right: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.info_bar li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  transform-origin: bottom left;
+  transition: width 0.5s ease;
+}
+
+.info_bar li:hover::after {
+  width: 100%;
+}
+
+.info1 h3 {
+  background: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+.services {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.s-body {
+  height: 15%;
+  width: 20rem;
+  padding: 3px;
+  font-size: 3rem;
+  margin-left: 8rem;
+  font-weight: 500;
+}
+.s-cont {
+  margin-left: 9rem;
+  display: flex;
+}
+.services123 {
+  width: 23%;
+  margin: 1.5rem;
+  margin-top: 3rem;
+  background-color: rgb(16, 34, 56);
+  padding: 1rem;
+  border-radius: 50px;
+}
+.services123:hover {
+  box-shadow: 0 0 20px rgb(31, 90, 228);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+}
+.services123 .l1 {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+}
+.services123 .l2 {
+  height: 20%;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.services123 .l3 {
+  height: 45%;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.footer {
+  height: 25rem;
+  display: flex;
+}
+.footer .contact_info {
+  height: 100%;
+  width: 30%;
+  margin-left: 9rem;
+  margin-top: 3rem;
+}
+.contact_info .c-h {
+  height: 20%;
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.contact_info .c_1 {
+  height: 20%;
+  width: 100%;
+  padding-top: 2rem;
+  line-height: 3rem;
+  font-size: 1rem;
+}
+.contact_info .logos {
+  height: 20%;
+  width: 100%;
+}
+.logos ul {
+  margin-left: 8rem;
+  margin-top: 3rem;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.logos ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.logos ul li a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 0.1rem;
+  text-align: center;
+  line-height: 40px;
+  background: rgb(16, 34, 56);
+  border-radius: 50%;
+  font-size: 30px;
+  color: rgb(31, 60, 95);
+  transition: 0.2s;
+}
+
+.logos ul li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  transition: 0.2s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.logos ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgb(0, 204, 255);
+}
+
+.logos ul li a:hover {
+  text-decoration-color: linear-gradient(
+    to bottom,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  box-shadow: 0 0 10px rgb(0, 204, 255);
+}
+
+.contact_info .download_button {
+  height: 25%;
+  width: 50%;
+  text-align: center;
+  padding-top: 4rem;
+  margin-left: 3rem;
+}
+.download_button .db {
+  font-size: 1rem;
+  color: white;
+  border: 3px solid transparent;
+  background-color: transparent;
+  border-image: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  border-image-slice: 1;
+  padding: 1rem;
+}
+.contact_info .download_button .db:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  transition: 0.2s ease;
+  box-shadow: 0 0 20px rgb(0, 204, 255);
+}
+.contact_details {
+  margin-top: 3rem;
+  width: 50%;
+  height: 100%;
+  padding-left: 3rem;
+}
+
+.contact_details form .f1 {
+  background-color: rgb(16, 34, 56);
+  width: 95%;
+  height: 3.5rem;
+  border: none;
+  padding-left: 2rem;
+  font-size: 1rem;
+  color: white;
+}
+.contact_details form #f2 {
+  width: 95%;
+  height: 9.5rem;
+}
+.submit-button {
+  height: 20%;
+  width: 40%;
+  text-align: center;
+  padding-top: 0rem;
+  margin-left: 14rem;
+}
+.submit-button p {
+  border: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  border-image-slice: 1;
+  padding: 1rem;
+  width: 50%;
+}
+.submit-button p:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 204, 255),
+    rgb(31, 90, 228),
+    rgb(78, 38, 223),
+    rgb(149, 50, 242),
+    rgb(255, 9, 222)
+  );
+  transition: 0.2s ease;
+  box-shadow: 0 0 20px rgb(0, 204, 255);
+}
+
+@media only screen and (max-width: 720px) {
+  nav a {
+    display: none;
+  }
+}
